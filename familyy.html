@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Family Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('purplebg4.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .header {
+            background-color: rgba(147, 112, 219, 0.8); /* Semi-transparent header */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+            border-bottom: 1px solid violet;
+        }
+
+        .header .title-container {
+            font-size: 15px;
+            font-weight: bold;
+            color: #000;
+            margin: 3px;
+            line-height: 1;
+            word-wrap: break-word;
+            max-width: 300px;
+        }
+
+        .header .center-title {
+            flex-grow: 2;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            font-family: Papyrus, sans-serif;
+        }
+
+        .header .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header .menu a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #000;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .header .menu a:hover {
+            color: violet;
+        }
+
+        .marquee-container {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        marquee {
+            font-size: 20px;
+            font-weight: bold;
+            color: darkviolet;
+            padding: 10px 0;
+        }
+
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+            min-height: 100vh;
+        }
+
+        h1, h3, h4 {
+            text-align: center;
+        }
+
+        p, ul {
+            max-width: 800px;
+            line-height: 1.6;
+            margin: 20px auto;
+            background-color: rgba(147, 112, 219, 0.8); /* Semi-transparent text background */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        img {
+            margin: 20px auto;
+            display: block;
+        }
+
+        .image-container img {
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        hr {
+            margin: 20px auto;
+            border: 1px solid violet;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="title-container">
+            <h1>Family</h1>
+        </div>
+        <div class="center-title"></div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="familyy.html">Family</a>
+            <a href="educational.html">Educational</a>
+            <a href="memoryy.html">Memory</a>
+        </div>
+    </div>
+
+    <!-- Marquee Section -->
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left">
+            You are on the Family Page!!
+        </marquee>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content-container">
+        <h1 style="border: 2px solid darkviolet; width: fit-content; margin: 20px auto; padding: 10px; font-family: Candara; font-size: 40px;">THIS IS MY FAMILY PAGE</h1>
+        <h3>This page consists of all my family members.</h3>
+        <h3>Here, let me introduce you to each one of them:</h3>
+
+        <p style="text-align: center; font-style: italic; font-size: 20px;">
+            Our family consists of only 4 people, including my father, my mother, my brother, 
+            and lastly myself. Although our family is not big, we love each other very much.
+        </p>
+
+        <hr>
+
+        <img src="abah.jpg" alt="Father's Picture" style="width: 200px; height: 250px;">
+        <h4>MY FATHER: <b><sub>ABAH</b></sub></h4>
+        <ul>
+            <li>My father's name is Norjafni.</li>
+            <li>Born on 20 December 1972.</li>
+            <li>Was raised in Kodiang, Kedah.</li>
+            <li>Has 5 siblings and my father is the third child.</li>
+            <li>My father likes to play games as a hobby in his free time.</li>
+        </ul>
+
+        <hr>
+
+        <img src="ibu.jpg" alt="Mother's Picture" style="width: 250px; height: 250px;">
+        <h4>MY MOTHER: <b><sup>IBU</b></sup></h4>
+        <ul>
+            <li>My mother's name is Noriza.</li>
+            <li>Born on 01 January 1974, she is 2 years younger than my father.</li>
+            <li>She was born in Kelantan but moved to Pahang, which is now our village.</li>
+            <li>She is the fifth child of 9 siblings.</li>
+            <li>Her hobbies include farming, cooking, and online shopping.</li>
+        </ul>
+
+        <hr>
+
+        <img src="luqman.jpg" alt="Brother's Picture" style="width: 200px; height: 250px;">
+        <h4>MY BROTHER: <b><sub>ABANG</b></sub></h4>
+        <ul>
+            <li>My brother's name is Luqmannul.</li>
+            <li>Born on 06 January 2002.</li>
+            <li>He was born in Pahang.</li>
+            <li>He is the eldest child in our family.</li>
+            <li>He enjoys playing games and reading comics.</li>
+            <li>Currently pursuing a degree in Electronics at UniMAP Perlis.</li>
+        </ul>
+
+        <hr>
+
+        <img src="aina1.jpg" alt="Aina's Picture" style="width: 200px; height: 250px;">
+        <h4>ME: <b><sup>AINA SAFIAH</b></sup></h4>
+        <ul>
+            <li>My name is Aina Safiah.</li>
+            <li>Born on 09 March 2004, I am the youngest in the family.</li>
+            <li>Was born in Kuala Lumpur.</li>
+            <li>I enjoy reading novels.</li>
+            <li>Currently studying at UiTM Segamat, majoring in Information Management.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
